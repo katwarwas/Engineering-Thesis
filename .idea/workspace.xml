@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc544a3-677a-4997-9a34-340f814ec7f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend" beforeDir="false" afterPath="$PROJECT_DIR$/backend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/admin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,7 @@
       <recent name="$PROJECT_DIR$/backend/app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/backend/app/send_mail" />
       <recent name="$PROJECT_DIR$/frontend/app" />
       <recent name="$PROJECT_DIR$/backend/app" />
@@ -92,10 +98,32 @@
       <workItem from="1700319540877" duration="1334000" />
       <workItem from="1701542247324" duration="11161000" />
       <workItem from="1706527838302" duration="14000" />
+      <workItem from="1706630614111" duration="10005000" />
+      <workItem from="1706659748523" duration="9450000" />
+      <workItem from="1709599754634" duration="184000" />
+      <workItem from="1709600086952" duration="1596000" />
+      <workItem from="1709739135178" duration="1009000" />
+      <workItem from="1709844768097" duration="8078000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/app/post/schemas.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/app/post/views.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

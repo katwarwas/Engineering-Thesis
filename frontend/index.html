@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User List</title>
+  </head>
+  <body>
+    <h1>User List</h1>
+    <ul id="user-list"></ul>
+
+    <script>
+      function getUsers() {
+        fetch("http://localhost:8000/users")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok")
+            }
+            return response.json()
+          })
+          .then((users) => {
+            const userList = document.getElementById("user-list")
+            users.forEach((user) => {
+              const listItem = document.createElement("li")
+              listItem.textContent = `email: ${user.email}, id: ${user.id}`
+              userList.appendChild(listItem)
+            })
+          })
+          .catch((error) => {
+            console.error(
+              "There was a problem with the fetch operation:",
+              error
+            )
+          })
+      }
+
+      getUsers()
+    </script>
+  </body>
+</html>
